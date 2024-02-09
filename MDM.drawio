@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-09T03:54:52.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="IEIXH2Im87Jhp7RyB6gs" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-09T04:03:10.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="r-C_SXuheAHzZMWzABpa" version="23.1.2" type="github">
   <diagram name="Page-1" id="vAEatEsLHrIx9eN2LmbF">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="pXW90rsx0bg_8WNFCdnt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pXW90rsx0bg_8WNFCdnt-6" target="pXW90rsx0bg_8WNFCdnt-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pXW90rsx0bg_8WNFCdnt-6" value="Request Mgmt&lt;br&gt;(Process Branch)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-6" value="Request Mgmt&lt;br&gt;(Process Branch)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pXW90rsx0bg_8WNFCdnt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pXW90rsx0bg_8WNFCdnt-9" target="pXW90rsx0bg_8WNFCdnt-11">
@@ -34,8 +34,46 @@
         <mxCell id="pXW90rsx0bg_8WNFCdnt-11" value="Check inventory" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="60" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pXW90rsx0bg_8WNFCdnt-12" value="Inventory Mgmt&lt;br&gt;(Process Branch)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pXW90rsx0bg_8WNFCdnt-12" target="pXW90rsx0bg_8WNFCdnt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pXW90rsx0bg_8WNFCdnt-12" target="pXW90rsx0bg_8WNFCdnt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-12" value="Inventory Mgmt&lt;br&gt;(Process Branch)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="710" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pXW90rsx0bg_8WNFCdnt-17" target="pXW90rsx0bg_8WNFCdnt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-17" value="Procurement Process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-19" value="No License&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-22" value="License allocated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pXW90rsx0bg_8WNFCdnt-24" target="pXW90rsx0bg_8WNFCdnt-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="150" />
+              <mxPoint x="680" y="150" />
+              <mxPoint x="680" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-24" value="After the contract is fully executed update inventory" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-29" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW90rsx0bg_8WNFCdnt-30" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="290" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
